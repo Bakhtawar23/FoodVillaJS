@@ -9,9 +9,11 @@
     "react-shimmer-effects": "^1.0.3"
   },
   "name": "react",
+  "homepage": "https://Bakhtawar23.github.io/FoodVillaJS",
   "version": "1.0.0",
   "devDependencies": {
     "@parcel/core": "^2.11.0",
+    "gh-pages": "^6.1.1",
     "parcel": "^2.11.0",
     "postcss": "^8.4.35",
     "process": "^0.11.10",
@@ -20,11 +22,11 @@
   "scripts": {
     "start": "parcel index.html",
     "build": "parcel build index.html",
+    "deploy": "gh-pages -d dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "main": "tailwind.config.js",
   "description": ""
 }
